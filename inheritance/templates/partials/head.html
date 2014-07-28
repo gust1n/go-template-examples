@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{with $x := .Title}}
+	  <title>{{$x}} - Go templates!</title>
+	{{else}}
+	  <title>Go templates!</title>
+	{{end}}
+	{{ template "preScripts" . }}
+</head>
+<body>
+
+{{/* define empty template to let other templates optionally include script in head */}}
+{{ define "preScripts" }}{{ end }}
