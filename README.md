@@ -1,7 +1,7 @@
-Go(land) Template Examples
+Go(lang) Template Examples
 =================
 
-This repository contains various (for now only one) experiments with go(lang)s templating system.
+This repository contains various (for now only one) experiments with Go(lang)s templating system.
 
 Experiments
 -----------
