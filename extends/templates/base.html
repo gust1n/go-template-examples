@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{with $x := .Title}}
+	  <title>{{$x}} - Go templates extends!</title>
+	{{else}}
+	  <title>Go templates extends!</title>
+	{{end}}
+	{{ template "head" . }}
+</head>
+<body>
+{{ template "body" . }}
+</body>
+</html>
+
+{{/* define empty template to let other templates optionally include stuff in head */}}
+{{ define "head" }}{{ end }}
