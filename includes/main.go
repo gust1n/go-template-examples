@@ -25,5 +25,5 @@ func main() {
 }
 
 func init() {
-	t = NewTemplates(filepath.Join(defaultBase("github.com/gust1n/go-template-examples/inheritance"), "templates"))
+	t = NewTemplates(filepath.Join(defaultBase("github.com/gust1n/go-template-examples/includes"), "templates"))
 }
